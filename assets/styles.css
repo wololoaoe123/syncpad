@@ -1,0 +1,39 @@
+.bejqUu:hover .sc-AxhCb {
+    background-color: #0e0e0e !important;
+    transition: background-color 0.2s ease-in-out 0s;
+
+}
+
+.web3modal-modal-container .web3modal-modal-card {
+    background-color: #141414;
+    border: 5px solid #222222 !important;
+
+}
+
+.web3modal-provider-wrapper .web3modal-provider-container {
+    background-color: #141414;
+
+}
+.bejqUu {
+    border: solid 1px #222222 !important;
+}
+.sc-AxgMl {
+
+    z-index: 10 !important;
+}
+
+@media only screen and (max-width: 600px) {
+.web3modal-modal-container .web3modal-modal-card {
+    border-radius: 0px !important;
+
+}
+  } 
+
+  #inferno-popup-overlay {
+    background: rgba(23, 23, 23, 0.13) !important;
+     backdrop-filter: blur(0px) !important;
+}
+
+#inferno-popup {
+    transform: none !important;
+}
